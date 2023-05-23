@@ -129,4 +129,8 @@ e. PTZ 캠
       setSocket(connectSocketAPIMethod("http://localhost:13000"));
     }, []);
     
-React 클라이언트의 App.js 를 살펴보면 위 코드가 있습니다. 본래 Onvif 프로토콜을 사용해 UI상에서 캠 조종이 가능하게끔 PTZ 조종 서버를 만들었으나 기술적 한계 (카메라 모델이 Onvif의 RelativeMove, AbsoluteMove, GetStatus를 지원하지 않음)로 인해 사장된 상태입니다 (깃헙에는 업로드되지 않았습니다). 관련 코드는 지우셔도 기능에 문제는 없습니다.
+React 클라이언트의 App.js 를 살펴보면 위 코드가 있습니다.
+
+본래 Onvif 프로토콜을 사용해 UI상에서 캠 조종이 가능하게끔 PTZ 조종 서버를 만들었으나 기술적 한계 (카메라 모델이 Onvif의 RelativeMove, AbsoluteMove, GetStatus를 지원하지 않음)로 인해 사장된 상태입니다 (깃헙에는 업로드되지 않았습니다).
+
+관련 코드는 지우셔도 기능에 문제는 없습니다.

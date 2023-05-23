@@ -15,20 +15,20 @@
 
 ## Repos
 
-### UI 관련
+### 1. UI 관련
 - **dp-client-new:** 기존 DR Platform UI를 기반하여 만들어진 React 클라이언트 입니다.
 - **dp-client:** 여러 다른 ADS들의 UI를 참고하여 개발중인 새로운 React 클라이언트 입니다. 현재 개발 보류중 입니다.
   * Figma 스케치: https://www.figma.com/file/PUxoNvb3KMiDiqu4Rx4rh1/drplatform?type=design&node-id=0-1&t=BwK7nRwugxNCOYHt-0
 
-### G8 관련
+### 2. G8 관련
 - **dp-server:** G8 DB에 접속해서 drone flight records를 받아오는 Restful API가 마련된 서버
 - **dp-crawler (deprecated):** G8 웹 클라이언트를 크롤링하는 서버
 - **dp-log-server:** 날짜별 드론 탐지 내역을 영상 기록으로 확인 가능한 Restful 서버
 
-### ADSB
+### 3. ADSB
 - **dp-adsb-server:** 연결된 SDR 장비로부터 수신되는 SBS-1 패킷을 decode 하는 서버
 
-### PTZ 캠 스트리밍 및 컨트롤 관련
+### 4. PTZ 캠 스트리밍 및 컨트롤 관련
 - **dp-ptz-controller:** Onvif (캠 팬/틸트/스트리밍), YoloV4 (Dataset training) 사용해 캠 화면상 드론 식별 및 추적 기능 지원
 - **dp-ptz-streaming-server:** Onvif 사용하여 PTZ 캠을 스트리밍 해주는 서버
 - **dp-pelcod-server:** Pelco-D 사용하여 PTZ 캠 상태 (팬/틸트/줌) 실시간 추적하는 서버

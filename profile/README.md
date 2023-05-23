@@ -1,5 +1,5 @@
 # IDCITI ADS (Anti Drone System)
-IDCITI ADS 비공식 Documentation 입니다. 아래 목차를 클릭하여 해당 항목으로 점프할 수 있습니다.
+IDCITI ADS (비공식) Documentation 입니다.
 
 ## Index
 1) Update Summary
